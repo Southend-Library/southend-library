@@ -7,7 +7,7 @@ margin: 20px auto;
 padding: 20px;
 border: 2px solid #0a683e; /* Deep Sea */
 border-radius: 10px;
-background-color:#639089; /* Dusty Teal */
+background-color:#ececec; /* Clouds */
 text-align: center;
 font-family: Arial, sans-serif;
 }
