@@ -10,6 +10,7 @@ border-radius: 10px;
 background-color:#2e2d5f; /* Blueberry */
 text-align: center;
 font-family: Arial, sans-serif;
+color: white;
 }
 #bookInput {
 width: 80%;
@@ -63,7 +64,7 @@ font-weight: bold;
 </head>
 <body>
 <div class="carbon-calculator-container">
-<h3 style="color: #0a683e;">Your Green Libraries Impact 🌿</h3>
+<h3 style="color: #fdc300;">Your Green Libraries Impact 🌿</h3>
 <p>Enter the number of books you borrowed from Southend Libraries in the last year:</p>
 <input type="number" id="bookInput" placeholder="e.g., 15" min="0" value="10">
 <button onclick="calculateCarbonSavings()">Calculate Savings</button>
