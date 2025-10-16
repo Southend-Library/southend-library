@@ -5,9 +5,9 @@
 max-width: 400px;
 margin: 20px auto;
 padding: 20px;
-border: 2px solid #006633; /* Sutton Green */
+border: 2px solid #0a683e; /* Deep Sea */
 border-radius: 10px;
-background-color: #f7fff7; /* Light Green Background */
+background-color: linear-gradient(to bottom left, #fdc300 0%, #0a683e 100%); /* Light Green Background */
 text-align: center;
 font-family: Arial, sans-serif;
 }
@@ -48,7 +48,7 @@ font-style: italic;
 color: #555;
 }
 .highlight {
-color: #ff9900; /* A contrast colour for emphasis */
+color: #a30157; /* A contrast colour for emphasis: raspberry */
 }
 .disclaimer {
 font-size: 0.8em;
@@ -94,7 +94,7 @@ you've saved an estimated:</p>
 <p class="savings-amount">${totalCO2Saved.toFixed(1)} kg CO₂e</p>
 <p class="equivalent">That's the same as taking a car off the road for <strong
 class="highlight">${milesSaved} miles</strong>! Keep up the great work and borrow more
-from Sutton Libraries!</p>
+from Southend Libraries!</p>
 `;
 document.getElementById('resultOutput').innerHTML = resultHTML;
 }
