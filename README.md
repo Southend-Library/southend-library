@@ -7,7 +7,7 @@ margin: 20px auto;
 padding: 20px;
 border: 2px solid #0a683e; /* Deep Sea */
 border-radius: 10px;
-background-color: linear-gradient(to bottom left, #fdc300 0%, #0a683e 100%); /* Light Green Background */
+background-color:#639089; /* Dusty Teal */
 text-align: center;
 font-family: Arial, sans-serif;
 }
@@ -20,7 +20,7 @@ border-radius: 5px;
 box-sizing: border-box;
 }
 button {
-background-color: #006633; /* Primary Action Colour */
+background-color: #0a683e; /* Deep Sea */
 color: white;
 padding: 10px 20px;
 border: none;
@@ -40,7 +40,7 @@ border-top: 1px solid #ddd;
 .savings-amount {
 font-size: 2em;
 font-weight: bold;
-color: #006633;
+color: #fdc300;
 margin: 5px 0;
 }
 .equivalent {
@@ -48,7 +48,7 @@ font-style: italic;
 color: #555;
 }
 .highlight {
-color: #a30157; /* A contrast colour for emphasis: raspberry */
+color: #f18500; /* A contrast colour for emphasis: carrot */
 }
 .disclaimer {
 font-size: 0.8em;
