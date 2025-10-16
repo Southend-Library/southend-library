@@ -5,9 +5,9 @@
 max-width: 400px;
 margin: 20px auto;
 padding: 20px;
-border: 2px solid #0a683e; /* Deep Sea */
+border: 2px solid #fdc300; /* Banana */
 border-radius: 10px;
-background-color:#ececec; /* Clouds */
+background-color:#2e2d5f; /* Blueberry */
 text-align: center;
 font-family: Arial, sans-serif;
 }
@@ -20,7 +20,7 @@ border-radius: 5px;
 box-sizing: border-box;
 }
 button {
-background-color: #0a683e; /* Deep Sea */
+background-color: #2aafb9; /* Verdigris */
 color: white;
 padding: 10px 20px;
 border: none;
@@ -30,7 +30,7 @@ font-weight: bold;
 transition: background-color 0.3s;
 }
 button:hover {
-background-color: #004d26; /* Darker green on hover */
+background-color: #7f1f61; /*plum*/
 }
 .result {
 margin-top: 20px;
@@ -45,14 +45,14 @@ margin: 5px 0;
 }
 .equivalent {
 font-style: italic;
-color: #555;
+color: #ffffff;
 }
 .highlight {
 color: #f18500; /* A contrast colour for emphasis: carrot */
 }
 .disclaimer {
 font-size: 0.8em;
-color: #777;
+color: #ececec;
 margin-top: 15px;
 }
 .error {
@@ -63,7 +63,7 @@ font-weight: bold;
 </head>
 <body>
 <div class="carbon-calculator-container">
-<h3 style="color: #006633;">Your Green Libraries Impact 🌿</h3>
+<h3 style="color: #0a683e;">Your Green Libraries Impact 🌿</h3>
 <p>Enter the number of books you borrowed from Southend Libraries in the last year:</p>
 <input type="number" id="bookInput" placeholder="e.g., 15" min="0" value="10">
 <button onclick="calculateCarbonSavings()">Calculate Savings</button>
