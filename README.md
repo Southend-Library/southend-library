@@ -1,10 +1,10 @@
-<head><nbr>
+<head>
 <title>Carbon Savings Calculator</title>
 <style>
 .carbon-calculator-container {
 max-width: 400px;
-margin: 10px auto;
-padding: 10px;
+margin: 20px auto;
+padding: 20px;
 border: 2px solid #fdc300; /* Banana */
 border-radius: 10px;
 background-color:#2e2d5f; /* Blueberry */
@@ -101,4 +101,4 @@ document.getElementById('resultOutput').innerHTML = resultHTML;
 }
 </script>
 </body>
-</nbr>
+
