@@ -4,7 +4,7 @@
 .carbon-calculator-container {
 max-width: 400px;
 margin: 20px auto;
-padding: 20px;
+padding: 10px;
 border: 2px solid #fdc300; /* Banana */
 border-radius: 10px;
 background-color:#2e2d5f; /* Blueberry */
