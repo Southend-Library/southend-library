@@ -1,4 +1,4 @@
-<head>
+<head><nbr>
 <title>Carbon Savings Calculator</title>
 <style>
 .carbon-calculator-container {
@@ -101,3 +101,4 @@ document.getElementById('resultOutput').innerHTML = resultHTML;
 }
 </script>
 </body>
+</nbr>
